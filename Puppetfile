@@ -33,3 +33,7 @@ mod 'profile',
   :git => 'https://github.com/kikobr82/puppet-profile.git',
   :ref => 'master'
 
+mod 'dnsconfig',
+  :git => 'https://github.com/kikobr82/dnsconfig.git',
+  :ref => 'master'
+
