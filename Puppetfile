@@ -34,6 +34,6 @@ mod 'profile',
   :ref => 'master'
 
 mod 'dnsconfig',
-  :git => 'https://github.com/kikobr82/dnsconfig.git',
+  :git => 'https://github.com/kikobr82/puppet-dnsconfig.git',
   :ref => 'master'
 
