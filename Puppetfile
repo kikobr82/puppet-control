@@ -6,7 +6,7 @@ mod "puppetlabs/inifile",     '1.5.0'
 mod "puppetlabs/stdlib",      '4.11.0'
 mod "puppetlabs/concat",      '2.1.0'
 mod "puppetlabs/java",		'1.6.0'
-mod "puppetlabs/selinux",	'1.2.0'
+mod "puppet/selinux",		'1.2.0'
 mod "garethr/docker", 		'5.3.0'
 
 # Modules from Git
