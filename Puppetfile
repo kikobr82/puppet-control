@@ -13,27 +13,19 @@ forge "http://forge.puppetlabs.com"
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :commit => '83401079053dca11d61945bd9beef9ecf7576cbf'
 
-#mod 'apache',
-#  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
-#  :branch => 'docs_experiment'
+mod 'apache',
+  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
+  :branch => 'docs_experiment'
 
-#mod 'ssh',
-#  :git => 'https://github.com/kikobr82/puppet-ssh.git',
-#  :ref => 'master'
-
-#mod 'ntp',
-#  :git => 'https://github.com/kikobr82/puppet-ntp.git',
-#  :ref => 'master'
-
-mod 'role',
-  :git => 'https://github.com/kikobr82/puppet-role.git',
+mod 'ssh',
+  :git => 'https://github.com/kikobr82/puppet-ssh.git',
   :ref => 'master'
 
-mod 'profile',
-  :git => 'https://github.com/kikobr82/puppet-profile.git',
+mod 'ntp',
+  :git => 'https://github.com/kikobr82/puppet-ntp.git',
   :ref => 'master'
 
-#mod 'dnsconfig',
-#  :git => 'https://github.com/kikobr82/puppet-dnsconfig.git',
-#  :ref => 'master'
+mod 'dnsconfig',
+  :git => 'https://github.com/kikobr82/puppet-dnsconfig.git',
+  :ref => 'master'
 
