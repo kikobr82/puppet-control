@@ -21,21 +21,20 @@ forge "http://forge.puppetlabs.com"
 
 mod 'ssh',
   :git => 'https://github.com/kikobr82/puppet-ssh.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'ntp',
   :git => 'https://github.com/kikobr82/puppet-ntp.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'role',
   :git => 'https://github.com/kikobr82/puppet-role.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'profile',
   :git => 'https://github.com/kikobr82/puppet-profile.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'dnsconfig',
   :git => 'https://github.com/kikobr82/puppet-dnsconfig.git',
-  :ref => 'development'
-
+  :ref => 'master'
