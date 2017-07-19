@@ -29,11 +29,11 @@ mod 'ntp',
 
 mod 'role',
   :git => 'https://github.com/kikobr82/puppet-role.git',
-  :ref => 'master'
+  :ref => 'development'
 
 mod 'profile',
   :git => 'https://github.com/kikobr82/puppet-profile.git',
-  :ref => 'master'
+  :ref => 'development'
 
 mod 'dnsconfig',
   :git => 'https://github.com/kikobr82/puppet-dnsconfig.git',
