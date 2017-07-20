@@ -1,2 +1,17 @@
 ---
-message: "This node is using common data"
+profile::base::base::nto_servers:
+  - 0.ubunut.poool.ntp.org
+  - 1.ubunut.poool.ntp.org
+  - 2.ubunut.poool.ntp.org
+  - 3.ubunut.poool.ntp.org
+profile::apache::default_vhost: false
+profile::apache::apache_vhost_servers: {
+  'node01.myserver.com': {
+    port: 80,
+    docroot: '/var/www/node01'
+  }
+  'node01b.myserver.com': {
+    port: 80,
+    docroot: '/var/www/node01b'
+  }
+}
