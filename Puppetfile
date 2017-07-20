@@ -32,3 +32,7 @@ mod 'ntp',
 mod 'dnsconfig',
   :git => 'https://github.com/kikobr82/puppet-dnsconfig.git',
   :ref => 'master'
+
+mod 'nginx',
+  :git => 'https://github.com/kikobr82/puppet-nginx.git',
+  :ref => 'master'
