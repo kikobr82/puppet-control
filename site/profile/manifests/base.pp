@@ -4,7 +4,6 @@ class profile::base(
     '1.ubuntu.pool.ntp.org',
   ],
 ) {
-  include ::dnsconfig
   include ::ssh
   class {'::ntp':
     servers => $ntp_servers,
