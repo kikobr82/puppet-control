@@ -8,10 +8,10 @@ profile::apache::default_vhost: false
 profile::apache::apache_vhost_servers: {
   'node01.myserver.com': {
     port: 80,
-    docroot: '/var/www/node01'
+    docroot: '/var/www/node01',
   }
   'node01b.myserver.com': {
     port: 80,
-    docroot: '/var/www/node01b'
+    docroot: '/var/www/node01b',
   }
 }
