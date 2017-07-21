@@ -1,0 +1,8 @@
+---
+profile::nginx::vhost:
+ - 'fqnd': 'node01.myserver.com'
+   'port': 80
+   'server_aliases': ''
+ - 'fqdn': 'node01b.mylabserver.com'
+   'port': 80
+   'server_aliases': 'node01b1.myserver.com'
