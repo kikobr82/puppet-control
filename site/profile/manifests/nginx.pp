@@ -1,9 +1,9 @@
 class profile::nginx(
-  Array $vhosts, 
+  Array $v2hosts, 
 ) {
   include ::nginx
  
-  $v2hosts.each |$vhost| {
+  $vhosts.each |$vhost| {
     ::nginx::vhost { $vhost['fqdn']:
       port           => $vhost['port'],
       server_aliases => $vhost['server_aliases'],
