@@ -1,6 +1,6 @@
 ---
 profile::nginx::vhosts:
- - 'fqnd': 'node01.myserver.com'
+ - 'fqdn': 'node01.myserver.com'
    'port': 80
    'server_aliases': ''
  - 'fqdn': 'node01b.mylabserver.com'
