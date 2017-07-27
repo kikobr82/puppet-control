@@ -1,8 +1,8 @@
 ---
 profile::nginx::vhosts:
- - 'fqdn': 'node01.myserver.com'
+ - 'fqdn': 'node01.plab.com'
    'port': 80
    'server_aliases': ''
- - 'fqdn': 'node01b.myserver.com'
+ - 'fqdn': 'node01b.plab.com'
    'port': 80
-   'server_aliases': 'node01b1.myserver.com'
+   'server_aliases': ''
